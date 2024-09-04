@@ -1,0 +1,44 @@
+.menu-bar {
+  display: flex;
+  align-items: center; /* Center items vertically */
+  gap: 20px; /* Space between menu items */
+  background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+  padding: 10px 20px; /* Padding inside the menu bar */
+  border-radius: 8px; /* Rounded corners for the menu bar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Shadow effect for the menu bar */
+}
+
+/* Individual menu item styles */
+.menu-items {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-item {
+  padding: 10px 15px; /* Padding for menu items */
+  cursor: pointer;
+  color: white; /* Text color */
+  font-size: 16px; /* Font size for menu items */
+  font-weight: 500; /* Font weight for menu items */
+  border-radius: 4px; /* Rounded corners for menu items */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on hover */
+}
+
+/* Styles for the settings icon */
+.settings-icon {
+  width: 30px; /* Fixed width for the icon */
+  height: 30px; /* Fixed height for the icon */
+  cursor: pointer;
+  color: white; /* Icon color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.settings-icon:hover {
+  color: #ddd; /* Slightly lighter color on hover */
+}
